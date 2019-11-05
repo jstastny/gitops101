@@ -8,6 +8,10 @@ spec:
   selector:
     matchLabels:
       app: podinfo
+  annotations:
+    flux.weave.works/tag.podinfo: glob:*
+    flux.weave.works/automated: 'true'
+
   template:
     metadata:
       labels:
