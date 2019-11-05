@@ -18,4 +18,3 @@ spec:
         image: quay.io/stefanprodan/podinfo:3.0.0
         ports:
         - containerPort: 3000
-
